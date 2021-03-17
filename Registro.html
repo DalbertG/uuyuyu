@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>REGISTRO DE USUARIOS</title>
+</head>
+
+<body>
+    <form action="validar.php" method="post" class="formulario" onsubmit="return registro()">
+        <h1> REGISTRO</h1>
+        <div class="contenedor">
+            <div class="input-contenedor">
+                <img class="icon" src="img/icon/user.png">
+                <input type="text" id="usuario" placeholder="Introduzca su nombre completo">
+            </div>
+            <div class="input-contenedor">
+                <img class="icon" src="img/icon/email.png">
+                <input type="text" id="mail" placeholder="Correo Electrónico">
+            </div>
+            <div class="input-contenedor">
+                <img class="icon" src="img/icon/passwd.png">
+                <input type="password" id="password" placeholder="Contraseña">
+            </div>
+            <div class="input-contenedor">
+                <img class="icon" src="img/icon/passwd.png">
+                <input type="password" id="rpassword" placeholder="Repita su Contraseña">
+            </div>
+            <input type="submit" value="Registro" class="button">
+            <p>Al registrar, acepta nuestras condiciones de uso y politica de privacidad.</p>
+            <p>¿Ya tiene cuenta?<a class="link" href="login.html">Iniciar Sesión</a></p>
+        </div>
+    </form>
+</body>
+
+</html>
